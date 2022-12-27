@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://cdn.staticaly.com/gh/lwm212/JK/main/shiyong.josn");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://ghproxy.com/https://raw.githubusercontent.com/lwm212/JK/main/NZ.txt");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
