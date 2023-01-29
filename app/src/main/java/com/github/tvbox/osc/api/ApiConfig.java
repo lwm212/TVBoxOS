@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://notabug.org/lwm212/boxx/raw/master/pz/ziyong.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://notabug.org/lwm212/boxx/raw/master/khjk/2302.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
