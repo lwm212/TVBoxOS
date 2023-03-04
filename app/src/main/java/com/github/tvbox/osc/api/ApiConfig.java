@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://0a.fit/beiyong");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://raw.kgithub.com/lwm212/JK/main/PZ/xianxia.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
